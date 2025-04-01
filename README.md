@@ -1,5 +1,5 @@
 # Reverse-sum-in-lists
-C++ program to add the two numbers and return the sum as a linked list (also in reverse order).
+C++ program to add the two numbers,stored in linked list in reversed order and return the sum as a linked list (also in reverse order).
 Problem Statement:
 You are given two singly linked lists representing two non-negative integers. The digits are stored in reverse order, and each node contains a single digit. Write a program to add the two numbers and return the sum as a linked list (also in reverse order).
 Additionally, your solution should:
@@ -7,7 +7,11 @@ Additionally, your solution should:
 2.	Not modify the original lists
 3.	Optimize for O(n) time complexity
 4.	Minimize space usage (O(1) extra space besides the result list)
-
+Input Format:
+ ListNode 1:[2->4->3] (represents 342)
+ ListNode 2:[5->6->4] (represents 465)
+Expected Output:
+ [7->0->8] (represents 807 which is 342 + 465)
 Solution Template:
 class ListNode {
     int val;
