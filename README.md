@@ -7,11 +7,14 @@ Additionally, your solution should:
 2.	Not modify the original lists
 3.	Optimize for O(n) time complexity
 4.	Minimize space usage (O(1) extra space besides the result list)
+
 Input Format:
  ListNode 1:[2->4->3] (represents 342)
  ListNode 2:[5->6->4] (represents 465)
+
 Expected Output:
  [7->0->8] (represents 807 which is 342 + 465)
+ 
 Solution Template:
 class ListNode {
     int val;
